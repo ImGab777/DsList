@@ -7,7 +7,7 @@ public class GameDTO {
 
     private long id;
     private String title;
-    private Integer yaer;
+    private Integer year;
     private String genre;
     private String platforms;
     private Double score;
@@ -38,12 +38,12 @@ public class GameDTO {
         this.title = title;
     }
 
-    public Integer getYaer() {
-        return yaer;
+    public Integer getYear() {
+        return year;
     }
 
-    public void setYaer(Integer yaer) {
-        this.yaer = yaer;
+    public void setYear(Integer year) {
+        this.year = year;
     }
 
     public String getGenre() {
